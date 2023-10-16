@@ -1,0 +1,21 @@
+img{
+    width: 400px;
+}
+.container{
+    max-width: 900px;
+    
+}
+
+.container_1{
+    max-width: 900px;
+    margin-left: 20px;
+}
+
+#imagen-principal{
+    width: 400px;
+
+}
+
+#servicio{
+    width: 500px;
+}
