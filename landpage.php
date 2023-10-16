@@ -42,7 +42,7 @@
 
             <div class="col-md-6 text-center my-auto">
                 <h1 class="font-weight-bold">Viaja con nosotros, Viaja seguro.</h1>
-                <p>El viaje por el que tanto estabas esperando, Vamos!</p>
+                <p>El viaje por el que tanto estabas esperando, ¡Vamos!</p>
                 <button class="btn btn-success"> Viaja ahora</button>
             </div>
         </div>
@@ -54,8 +54,8 @@
             </div>
 
             <div class="col-md-6 text-center my-auto">
-                <h1 class="font-weight-bold">Renta un auto con nostros</h1>
-                <p>Mucho espacio? Lo tenemos, Muy rapido? también lo tenemos</p>
+                <h1 class="font-weight-bold">Renta un Vehiculo con nostros</h1>
+                <p>¿Mucho espacio? Lo tenemos. ¿Muy rapido? también lo tenemos.</p>
 
             </div>
         </div>
@@ -69,7 +69,7 @@
 
             <div class="col-md-6 text-center my-auto">
                 <h1 class="font-weight-bold">Seguridad en tu viaje y rastreo GPS</h1>
-                <p>Lo mas importante es tu seguridad y comodidad!</p>
+                <p>¡Lo mas importante es tu seguridad y comodidad!</p>
 
             </div>
         </div>
@@ -83,7 +83,7 @@
             </div>
 
             <div class="col-md-6 text-center my-auto">
-                <h1 class="font-weight-bold">PROBLEMAS?</h1>
+                <h1 class="font-weight-bold">¿PROBLEMAS?</h1>
                 <p>Lo tenemos cubierto, Contactanos. </p>
 
             </div>
@@ -104,7 +104,7 @@
                     </a>
                     <ul class="list-unstyled small">
                         <li class="mb-2">Desarrollado por el equipo de AMPEJU & Asociados </li>
-                        <li class="mb-2">Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
+                        <li class="mb-2">Code licensed <a href="https://github.com/PedroMartk9i/Ampeju" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
                         <li class="mb-2">Currently v1.0.</li>
                     </ul>
                 </div>
@@ -112,42 +112,21 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2"><a href="/">Home</a></li>
-                        <li class="mb-2"><a href="GG">Docs</a></li>
-                        <li class="mb-2"><a href="/docs/5.3/examples/">Examples</a></li>
-                        <li class="mb-2"><a href="https://icons.getbootstrap.com/">Icons</a></li>
-                        <li class="mb-2"><a href="https://themes.getbootstrap.com/">Themes</a></li>
-                        <li class="mb-2"><a href="https://blog.getbootstrap.com/">Blog</a></li>
-                        <li class="mb-2"><a href="https://cottonbureau.com/people/bootstrap" target="_blank" rel="noopener">Swag Store</a></li>
+                        <li class="mb-2"><a href="https://docs.google.com/document/d/1P8oTu_OihFv2FYQ_DCJjwSWQFGRhBPLAVUK1b1AuJok/edit">SRS</a></li>
+                        <li class="mb-2"><a href="https://docs.google.com/document/d/17yvxyOBOKXkLpWdsmLt2ehCcHsZgcPPt/edit">Casos de uso</a></li>
+                    
                     </ul>
                 </div>
                 <div class="col-6 col-lg-2 mb-3">
                     <h5>Guides</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="/docs/5.3/getting-started/">Getting started</a></li>
-                        <li class="mb-2"><a href="/docs/5.3/examples/starter-template/">Starter template</a></li>
-                        <li class="mb-2"><a href="/docs/5.3/getting-started/webpack/">Webpack</a></li>
-                        <li class="mb-2"><a href="/docs/5.3/getting-started/parcel/">Parcel</a></li>
-                        <li class="mb-2"><a href="/docs/5.3/getting-started/vite/">Vite</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-lg-2 mb-3">
-                    <h5>Projects</h5>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap" target="_blank" rel="noopener">Bootstrap 5</a></li>
-                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev" target="_blank" rel="noopener">Bootstrap 4</a></li>
-                        <li class="mb-2"><a href="https://github.com/twbs/icons" target="_blank" rel="noopener">Icons</a></li>
-                        <li class="mb-2"><a href="https://github.com/twbs/rfs" target="_blank" rel="noopener">RFS</a></li>
-                        <li class="mb-2"><a href="https://github.com/twbs/examples/" target="_blank" rel="noopener">Examples repo</a></li>
+                        <li class="mb-2"><a href="https://www.youtube.com/watch?v=SL_C1NVHflU">Youtube Guide</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-lg-2 mb-3">
                     <h5>Community</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues" target="_blank" rel="noopener">Issues</a></li>
-                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap/discussions" target="_blank" rel="noopener">Discussions</a></li>
-                        <li class="mb-2"><a href="https://github.com/sponsors/twbs" target="_blank" rel="noopener">Corporate sponsors</a></li>
-                        <li class="mb-2"><a href="https://opencollective.com/bootstrap" target="_blank" rel="noopener">Open Collective</a></li>
-                        <li class="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5" target="_blank" rel="noopener">Stack Overflow</a></li>
+                        <li class="mb-2"><a href="https://unab.edu.co/" target="_blank" rel="noopener">Unab</a></li>
                     </ul>
                 </div>
             </div>
