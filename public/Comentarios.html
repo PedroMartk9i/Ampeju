@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Interfaz de comentarios, quejas o dudas</title>
+  <link rel="stylesheet" href="css/ComentarioCSS.css">
+</head>
+<body>
+
+  <h1>Formulario de comentarios, quejas o dudas</h1>
+  <p>Su duda, comentario o queja será revisado por un operador de soporte que le dará solución lo más pronto posible.</p>
+  <div class="campo2">
+    <form action="#">
+
+        <div class="campo">
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" required>
+        </div>
+    
+        <div class="campo">
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" name="correo" id="correo" required>
+        </div>
+    
+        <div class="campo">
+          <label for="asunto">Asunto:</label>
+          <input type="text" name="asunto" id="asunto" required>
+        </div>
+    
+        <div class="campo">
+          <label for="comentario">Comentario, queja o duda:</label>
+          <textarea name="comentario" id="comentario" rows="10" cols="50" required></textarea>
+        </div>
+    
+        <input type="submit" value="Enviar">
+    
+      </form>
+
+  </div>
+  
+
+</body>
+</html>
