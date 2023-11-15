@@ -5,7 +5,7 @@ async function crearUsuario(req, res) {
   try {
     const nuevoUsuario = new Usuario(req.body);
     await nuevoUsuario.save();
-    res.status(201).json({ mensaje: 'Usuario creado con éxito', usuario: nuevoUsuario });
+    res.status(201).json({ mensaje: 'Usuario creado con éxito holaa', usuario: nuevoUsuario });
   } catch (error) {
     res.status(500).json({ mensaje: 'Error al crear el usuario', error: error.message });
   }
