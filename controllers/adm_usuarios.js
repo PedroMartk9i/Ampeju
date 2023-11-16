@@ -1,4 +1,5 @@
 const Usuario = require('../models/usuarioModel');
+const bcrypt = require('bcrypt');
 
 // Controlador para la creación de un nuevo usuario
 async function crearUsuario(req, res) {
@@ -10,6 +11,32 @@ async function crearUsuario(req, res) {
     res.status(500).json({ mensaje: 'Error al crear el usuario', error: error.message });
   }
 }
+
+//Iniciar Sesión
+async function iniciarSesion(req, res) {
+  const { email, password } = req.body;
+
+  try {
+    const usuario = await Usuario.findOne({ email });
+
+    if (!usuario) {
+      return res.status(401).json({ mensaje: 'Correo electrónico no registrado' });
+    }
+
+    const contraseñaValida = await bcrypt.compare(password, usuario.password);
+
+    if (!contraseñaValida) {
+      return res.status(401).json({ mensaje: 'Contraseña incorrecta' });
+    }
+
+    // Aquí puedes generar un token de sesión si lo necesitas
+
+    res.status(200).json({ mensaje: 'Inicio de sesión exitoso', usuario });
+  } catch (error) {
+    res.status(500).json({ mensaje: 'Error al iniciar sesión', error: error.message });
+  }
+}
+
 
 // Controlador para obtener todos los usuarios
 async function obtenerUsuarios(req, res) {
@@ -71,5 +98,6 @@ module.exports = {
   obtenerUsuarios,
   obtenerUsuarioPorId,
   actualizarUsuario,
-  eliminarUsuario
+  eliminarUsuario,
+  iniciarSesion
 };

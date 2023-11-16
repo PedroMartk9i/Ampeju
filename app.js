@@ -33,3 +33,7 @@ app.listen(port, () => {
 });
 
 app.post('/api/crearUsuario', UsuarioController.crearUsuario);
+
+app.post('/api/iniciarSesion', UsuarioController.iniciarSesion);
+
+
