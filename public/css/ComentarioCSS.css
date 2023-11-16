@@ -1,0 +1,44 @@
+body {
+  
+  background-image: url('../imagenes/backgroundcoments.jpg');
+}
+
+.container {
+  max-width: 600px;
+}
+
+.login-panel {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.campo input,
+.campo textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-success {
+  width: 100%;
+}
+
+/* Ajustes para tamaños pequeños de pantalla */
+@media (max-width: 576px) {
+  .login-panel {
+    margin-top: 20px;
+  }
+}

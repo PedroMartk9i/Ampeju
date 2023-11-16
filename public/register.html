@@ -11,7 +11,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
-
 </head>
 
 <body>
@@ -20,24 +19,25 @@
     <div class="right-side">
       <h1>Registro</h1>
       <h3>Claw Liberty Company</h3>
-      <input name="nombres" placeholder="Nombres" class="form-control" type="text">
-      <input name="apellidos" placeholder="Apellidos" class="form-control" type="text">
-      <select class="form-select mt-3" required name="tipo_doc">
-        <option selected disabled value="">Tipo de Documento</option>
-        <option value="Cedula">Cédula de Ciudadania</option>
-        <option value="Cedula de Extranjeria">Cédula de Extranjeria</option>
-      </select>
-      <input type="number" name="documento" id="documento" placeholder="Documento">
-      <input type="number" name="telefono" id="telefono" placeholder="Telefono">
-      <input type="email" name="email" id="email" placeholder="Email">
-      <input type="password" name="" id="" placeholder="Contraseña">
-      <input type="password" name="" id="" placeholder="Confirmar Contraseña">
-      <input type="submit" value="¡Vamos!" class="submit-btn">
+      <form action="" id="registroForm">
+        <input name="nombre" placeholder="Nombres" class="form-control" type="text" required>
+        <input name="apellido" placeholder="Apellidos" class="form-control" type="text" required>
+        <select class="form-select mt-3" required name="tipo_doc">
+          <option selected disabled value="">Tipo de Documento</option>
+          <option value="Cedula" name="tipo_doc">Cédula de Ciudadania</option>
+          <option value="Cedula_extranjeria" name="tipo_doc">Cédula de Extranjeria</option>
+        </select>
+        <input type="number" name="documento" id="documento" placeholder="Documento" required>
+        <input type="number" name="telefono" id="telefono" placeholder="Telefono">
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <input type="password" name="password" id="password" placeholder="Contraseña" required>
+        <button type="submit" class="submit-btn">¡Vamos!</button>
+      </form>
+      <div id="mensaje">Usuario Creado</div>
     </div>
   </div>
-  </section>
 
-  <script src="registro.js"></script>
+  <script src="js/registro.js"></script>
 </body>
 
 </html>

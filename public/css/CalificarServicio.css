@@ -1,0 +1,36 @@
+body {
+  background-image: url('../imagenes/backgroundcalificacion.jpg');
+}
+
+.container {
+  max-width: 600px;
+}
+
+.login-panel {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.informacion-usuario input,
+.calificacion-general select,
+.sugerencias textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-success {
+  width: 100%;
+}
+
+/* Ajustes para tamaños pequeños de pantalla */
+@media (max-width: 576px) {
+  .login-panel {
+    margin-top: 20px;
+  }
+}

@@ -18,33 +18,36 @@
             <div class="header">
                 <img src="imagenes/logoclaw2.jpg" style="width: 150px; height: auto;" alt="clawlogo" />
             </div>
-
-            <div class="l-part">
-                <input type="text" placeholder="Username" class="input-1" />
-                <div class="overlap-text">
-                    <input type="password" placeholder="Password" class="input-2" />
-
+            <form action="" id="loginForm">
+                <div class="l-part">
+                    <input type="text" placeholder="Email" class="input-1" name="email" id="email"/>
+                    <div class="overlap-text">
+                        <input type="password" placeholder="Password" class="input-2" name="password" id="password"/>
+    
+                    </div>
+                    <button class="btn" type="submit">Entrar</button>
+                    <br>
+                    <br>
+                    <span class="separator">--------------------O------------------------</span>
+                    <br>
+                    <br>
+    
+                    <a class="forgot-password-link" href="#" role="link" tabindex="0">
+                        <span class="forgot-password-text">¿Has olvidado la contraseña?</span>
+                    </a>
+    
                 </div>
-                <button class="btn"><a href="home.html">Entrar</a></button>
-                <br>
-                <br>
-                <span class="separator">--------------------O------------------------</span>
-                <br>
-                <br>
-
-                <a class="forgot-password-link" href="#" role="link" tabindex="0">
-                    <span class="forgot-password-text">¿Has olvidado la contraseña?</span>
-                </a>
-
-            </div>
+            </form>
+            
         </div>
         <div class="sub-content">
             <div class="s-part">
-                ¿No tienes una cuenta? <a href="#registro"> Registrate</a>
+                ¿No tienes una cuenta? <a href="register.html"> Registrate</a>
             </div>
         </div>
     </div>
 
+    <script src="js/login.js"></script>
 </body>
 
 <!-- Site footer -->

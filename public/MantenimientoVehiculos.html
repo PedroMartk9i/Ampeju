@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mantenimiento de vehículos</title>
+  <link rel="stylesheet" href="css/MantenimientoCSS.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mantenimiento de vehículos</h1>
+        <form action="#">
+            <select tabindex="1">
+                <option value="aceite">Carro 1</option>
+                <option value="filtros">Carro 2</option>
+                <option value="llantas">Carro 3</option>
+                <option value="frenos">Carro 4</option>
+              </select>
+              <button type="submit" class="button">Mandar a mantenimiento</button>
+        </form>
+    </div>
+  <script>
+    function mantenimientoExitoso() {
+      alert("Mantenimiento exitoso");
+    }
+
+    document.querySelector("form").addEventListener("submit", mantenimientoExitoso);
+  </script>
+</body>
+</html>
