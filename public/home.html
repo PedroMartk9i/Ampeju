@@ -12,6 +12,10 @@
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#formulario">Formulario</a></li>
             <li><a href="#localizar">Localizar</a></li>
+            <li><a href="CalificarServicio.html">Calificar Servicio</a></li>
+            <li><a href="Comentarios.html">Comentarios</a></li>
+            <li><a href="MantenimientoVehiculos.html">Mantenimiento</a></li>
+            <li><a href="reservas.html">Reservar</a></li>
         </ul>
     </nav>
 
@@ -33,33 +37,31 @@
     <section id="formulario">
         <h2>Formulario</h2>
        
-            <form class="formulario1">
-                <div class="contenedor2">
-                <label style="margin-right: 5px;" for="placa">Placa del vehículo</label>
-                <input class="backgroun" type="text" id="placa" name="placa" required>
-    
-                <label style="margin-right: 5px; margin-left: 5px;" for="opciones">Seleccione el tipo:</label>
-                    <select id="opciones">
-                        <option value="opcion1">Carro</option>
-                        <option value="opcion2">Motocicleta</option>
-                        <option value="opcion3">Cicla</option>
-                        <option value="opcion4">Camión</option>
-                    </select>
-                </div>
-        <div class="contenedor2">
-            <label style="margin-right: 5px;" for="Modelo">Modelo</label>
-            <input class="backgroun" type="number" id="linea" name="linea" required>
-
-            <label style="margin-right: 5px; margin-left: 5px;" for="Marca">Marca</label>
-            <input class="backgroun" type="text" id="año" name="año" required>
-
-        </div>
-           
+        <form class="formulario1" id="inscribirForm">
+            <div class="contenedor2">
+              <label style="margin-right: 5px;" for="placa">Placa del vehículo</label>
+              <input class="backgroun" type="text" id="placa" name="placa" required>
+          
+              <label style="margin-right: 5px; margin-left: 5px;" for="opciones">Seleccione el tipo:</label>
+              <select id="opciones" name="tipo" required>
+                <option value="Carro" name="tipo">Carro</option>
+                <option value="Motocicleta" name="tipo">Motocicleta</option>
+                <option value="Cicla" name="tipo">Cicla</option>
+                <option value="Camion" name="tipo">Camión</option>
+              </select>
+            </div>
+            <div class="contenedor2">
+              <label style="margin-right: 5px;" for="Modelo">Modelo</label>
+              <input class="backgroun" type="text" id="modelo" name="modelo" required>
+          
+              <label style="margin-right: 5px; margin-left: 5px;" for="Marca">Marca</label>
+              <input class="backgroun" type="text" id="marca" name="marca" required>
+            </div>
             <label style="margin-right: 5px;" for="color">Color</label>
             <input class="backgroun" type="text" id="color" name="color" required>
-
+          
             <input class="button" id="boton1" type="submit" value="Enviar">
-        </form>
+          </form>
     </section>
 
     <section id="localizar">
@@ -71,5 +73,6 @@
             <a href="Localización.html" class="button">Consultar localización</a>
         </div>
     </section>
+    <script src="js/inscribirVehiculo.js"></script>
 </body>
 </html>

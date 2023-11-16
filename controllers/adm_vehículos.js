@@ -26,8 +26,19 @@ async function obtenerVehiculoPorPlaca(req, res) {
   }
 }
 
+// Controlador para obtener los vehículos disponibles
+async function obtenerVehiculosDisponibles(req, res) {
+    try {
+      const vehiculos = await Vehiculo.find();
+      res.status(200).json(vehiculos);
+    } catch (error) {
+      res.status(500).json({ mensaje: 'Error al obtener los vehículos', error: error.message });
+    }
+  }
+
 // Exportar las funciones del controlador
 module.exports = {
   guardarVehiculo,
-  obtenerVehiculoPorPlaca
+  obtenerVehiculoPorPlaca,
+  obtenerVehiculosDisponibles
 };

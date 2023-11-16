@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <title>Interfaz de comentarios, quejas o dudas</title>
   <link rel="stylesheet" href="css/ComentarioCSS.css">
+  <!-- Enlaces a Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
-<body>
 
-  <h1>Formulario de comentarios, quejas o dudas</h1>
-  <p>Su duda, comentario o queja será revisado por un operador de soporte que le dará solución lo más pronto posible.</p>
-  <div class="campo2">
-    <form action="#">
+<body class="bg-light">
 
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="campo2 login-panel">
+      <h1 class="text-center">Comentarios</h1>
+      <p class="text-center">Su duda, comentario o queja será revisado por un operador de soporte que le dará solución
+        lo más pronto posible.</p>
+      <form action="#" id="comentarioForm">
         <div class="campo">
           <label for="nombre">Nombre:</label>
           <input type="text" name="nombre" id="nombre" required>
         </div>
-    
+
+
         <div class="campo">
-          <label for="correo">Correo electrónico:</label>
-          <input type="email" name="correo" id="correo" required>
-        </div>
-    
-        <div class="campo">
-          <label for="asunto">Asunto:</label>
-          <input type="text" name="asunto" id="asunto" required>
-        </div>
-    
-        <div class="campo">
-          <label for="comentario">Comentario, queja o duda:</label>
+          <label for="comentario">Comentario</label>
           <textarea name="comentario" id="comentario" rows="10" cols="50" required></textarea>
         </div>
-    
-        <input type="submit" value="Enviar">
-    
+
+        <input type="submit" class="btn btn-warning" value="Enviar">
       </form>
-
+    </div>
   </div>
-  
 
+  <!-- Scripts de Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/comentario.js"></script>
 </body>
+
 </html>

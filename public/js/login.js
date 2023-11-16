@@ -19,6 +19,7 @@ document.getElementById('loginForm').addEventListener('submit', async function (
       if (response.ok) {
         console.log('Inicio de sesión exitoso');
         // Redirige a la página de inicio o realiza acciones adicionales si es necesario
+        window.location.href = '/home.html';
       } else {
         console.error('Error al iniciar sesión:', response.statusText);
         // Muestra un mensaje de error al usuario si es necesario

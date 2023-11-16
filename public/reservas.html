@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="formulario">
+        <h2>Reserva tu vehiculo aqui</h2>
+        <label for="disponibles">Vehículos disponibles</label>
+        <select name="dispo" id="vehiculos">
+            <option value="vehi1">Carro1</option>
+            <option value="vehi2">Carro2</option>
+        </select>
+            <form class="formulario1">
+           
+            <label style="margin-right: 5px;" for="color">Documento</label>
+            <input class="backgroun" type="text" id="color" name="color" required>
+
+            <input class="button" id="boton1" type="submit" value="Reservar">
+        </form>
+    </section>
+
+    <script src="js/obtenerVehiculos.js"></script>
+    <script src="js/reservar.js"></script>
+</body>
+</html>

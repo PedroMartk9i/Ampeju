@@ -5,6 +5,10 @@ const app = express();
 const port = 3000;
 const bodyParser = require('body-parser');
 const UsuarioController = require('./controllers/adm_usuarios');
+const VehiculoController = require('./controllers/adm_vehículos');
+const ComentarioController = require('./controllers/adm_comentarios');
+const reservasController = require('./controllers/adm_reservas');
+const serviciosController = require('./controllers/adm_servicios');
 
 
 
@@ -36,4 +40,14 @@ app.post('/api/crearUsuario', UsuarioController.crearUsuario);
 
 app.post('/api/iniciarSesion', UsuarioController.iniciarSesion);
 
+app.post('/api/inscribirVehiculo', VehiculoController.guardarVehiculo);
 
+app.get('/api/vehiculosDisponibles', VehiculoController.obtenerVehiculosDisponibles);
+
+app.post('/api/crearComentario', ComentarioController.guardarComentario);
+
+app.post('/api/crearReserva', reservasController.guardarReserva);
+
+app.post('/api/crearCalificacion', serviciosController.guardarServicio);
+
+app.get('/api/obtenerReservaPorUsuario/:docUsuario', reservasController.obtenerReservaPorUsuario);
