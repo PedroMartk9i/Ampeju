@@ -17,6 +17,10 @@ body {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     font-family: 'Raleway';
+    background-image: url('../imagenes/backgroundpago.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .payment-title {
@@ -38,6 +42,14 @@ body {
 
 .form-container .field-container:nth-of-type(4) {
     grid-area: security;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:5% 
 }
 
 .field-container input {
@@ -353,4 +365,13 @@ input {
 .creditcard.flipped {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
+}
+
+.login-panel {
+    width: 15%;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10% 10%;
+    border-right-color: rgb(11, 10, 10);
+
 }
